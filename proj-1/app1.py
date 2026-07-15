@@ -94,9 +94,12 @@ rag_chain = (
 
 
 if __name__ == "__main__":
-    question = "What is the attendance policy?"
+    question = "What is the minimum cgpa required for graduation??"
     answer = rag_chain.invoke(question)
     print(answer)
+
+
+    
 
 
 
